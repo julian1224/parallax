@@ -1,0 +1,56 @@
+.body__div__rob {
+	background-image: url("src/rob.jpg");
+	z-index: 3;
+}
+.body__div__majik {
+	background-image: url("src/majik.jpg");
+	z-index: 2;
+}
+.body__div__word {
+	background-image: url("src/word.jpg");
+}
+.body__div__rob, .body__div__majik, .body__div__word {
+	height: 400px;
+	width: 100%;
+	z-index: 0;
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+html {
+	background-color: grey;
+}
+
+.body__div__rob__p, .body__div__majik__p, .body__div__word__p {
+	font-size: 150px;
+	position: absolute;
+	overflow: visible;
+	z-index: 1;
+}
+
+#tellme {
+	position: fixed;
+	z-index: 3000;
+}
+
+.cover__left, .cover__right {
+	background-color: gray;
+	height: 100%;
+	width: 5%;
+	position: fixed;
+	z-index: 10;
+	top: 0px;
+}
+.cover__right {
+	right: 0px;
+}
+.cover__left {
+	left: 0px;
+}
+
+.filler {
+	height: 100px;
+	background-color: gray;
+	width: 100%;
+	z-index: 10;
+	position: absolute;
+	}
